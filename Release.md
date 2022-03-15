@@ -1,11 +1,11 @@
-Release Notes for SNAP
+# Release Notes for SNAP
 
 Stanford Network Analysis Platform (SNAP) is a general purpose, high
 performance system for graph and network manipulation and analysis.
 
 This file contains a high-level description of changes in SNAP releases.
 
-Release 6.0, Dec 4, 2020
+## Release 6.0, Dec 4, 2020
 
 This is a major release, significant new functionality includes: a large family
 of egonet functions, dense and sparse floating-point vector attributes, graph
@@ -41,7 +41,9 @@ Here is a detailed list:
 - updated Makefiles with additional instructions for building on Anaconda
 - updated graphviz baseline files for graphviz version 2.38.0
 
-Release 5.0, Aug 29, 2019
+---
+
+## Release 5.0, Aug 29, 2019
 
 This is a maintenance release and brings several upgrades.
 
@@ -55,7 +57,9 @@ Here is a detailed list:
 - turned on the printing of feature matrix in rolx
 - removed the Visual Studio 2008 solution file
 
-Release 4.1, Jul 25, 2018
+---
+
+## Release 4.1, Jul 25, 2018
 
 This is a minor release and brings several bug fixes and improvements.
 
@@ -79,7 +83,9 @@ Here is a detailed list:
 - implemented GetTriadsAll(), which is needed by Snap.py
 - added 'const' to node2vec code to make it work with Snap.py
 
-Release 4.0, Jul 27, 2017
+---
+
+## Release 4.0, Jul 27, 2017
 
 This is a major release and brings significant new functionality: local
 higher-order clustering, counting of temporal motifs, node embedding with
@@ -148,7 +154,9 @@ Here is a detailed list:
 - fixed a minor typo in agm comments
 - edited ReadMe.txt to use only ASCII characters
 
-Release 3.0, Jul 18, 2016
+---
+
+## Release 3.0, Jul 18, 2016
 
 This is a mega large release. It brings major new functionality: relational
 tables, multimodal graphs, multi-threaded operations, personalized pagerank,
@@ -284,7 +292,9 @@ capabilities.
   three different subvariants TSVNode, TMVNode, TCVNode
 - added a new experimental directory snap-exp/test-dev for various test programs
 
-Release 2.4, May 11, 2015
+---
+
+## Release 2.4, May 11, 2015
 
 - implemented TLSHash() class for locality sensitive hashing
 - implemented SaveEdgeListNet(), LoadEdgeListNet()
@@ -312,7 +322,9 @@ Release 2.4, May 11, 2015
 - added an example on how to update values in a hash table
 - put back tutorials Xcode project files
 
-Release 2.3, Jun 16, 2014
+---
+
+## Release 2.3, Jun 16, 2014
 
 - implemented RolX algorithm for detecting node roles
 - implemented flow agorithms
@@ -335,7 +347,9 @@ Release 2.3, Jun 16, 2014
 - improved the fix for sorting the SCC sizes
 - improved the handling of getrusage()
 
-Release 2.2, Mar 12, 2014
+---
+
+## Release 2.2, Mar 12, 2014
 
 - added CoDA, 2-mode community detection method, in examples/coda
 - added CESNA, community detection method for networks with node attributes,
@@ -373,7 +387,9 @@ Release 2.2, Mar 12, 2014
 - fixed incorrect index in TTm::GetCurLocTm().GetMonth()
 - made minor code changes to reduce compiler warnings
 
-Release 2.1, Sep 12, 2013
+---
+
+## Release 2.1, Sep 12, 2013
 
 - implemented a new network class TNEANet and PNEANet for graphs with
   attributes
@@ -413,7 +429,9 @@ Release 2.1, Sep 12, 2013
 - fixed demo-topology-benchmark.cpp compilation on Cygwin
 - commented out class IsDerivedFrom
 
-Release 2.0, May 13, 2013
+---
+
+## Release 2.0, May 13, 2013
 
 - significantly changed several classes and methods, not backward compatible.
   This version is not able to read binary files or class serializations,
@@ -451,7 +469,9 @@ Release 2.0, May 13, 2013
 - fixed warnings about implicit conversions from int64 to int in dt.h, tm.h,
   os.h.
 
-Release 1.11, Dec 21, 2012
+---
+
+## Release 1.11, Dec 21, 2012
 
 - added new examples netinf, infopath
 - added new advanced modules cascnetinf, cascdynetinf
@@ -493,7 +513,9 @@ Release 1.11, Dec 21, 2012
 - implemented #8, improve the front page for reference manuals
 - added .gitignore file for Xcode project
 
-Release 1.10, Oct 15, 2012
+---
+
+## Release 1.10, Oct 15, 2012
 
 - fixed TUNGraph to return correct number of edges, not backward compatible.
   This version is not able to read binary TUNGraphs, saved by previous SNAP
@@ -507,18 +529,24 @@ Release 1.10, Oct 15, 2012
 - included "<new>" in unicode.h to support Xcode with the Apple compiler
 - fixed bug in TUNGraph:BegEI(), some edges could be missed by the iterator
 
-Release 1.9.2, Oct 2, 2012
+---
+
+## Release 1.9.2, Oct 2, 2012
 
 - removed a default parameter in triad.h so that the code compiles in
   Visual Studio 2010
 - in source code converted all 8bit characters to 7bit characters \xnn
 
-Release 1.9.1, Sep 28, 2012
+---
+
+## Release 1.9.1, Sep 28, 2012
 
 - fixed name mismatch between GetUniq... and CntUniq... to CntUniq...
 - reversed the changes in centr.h:GetNodeEcc() name and definition to pre-1.9
 
-Release 1.9, Sep 26, 2012
+---
+
+## Release 1.9, Sep 26, 2012
 
 - names of functions in gviz.h have been changed, not backward compatible
 - neighbor abbreviations have been changed thoughout the code,
@@ -536,4 +564,3 @@ Release 1.9, Sep 26, 2012
 - code has been changed to remove compilation warnings
 - merged with the latest glib version
 - numerous code improvements and bug fixes
-
